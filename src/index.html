@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CN-6000 Breakout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+        <header style="height: 50px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; background: #003366; color: white; padding: 0 20px;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <h1 id="scene-title" style="margin:0; font-size:18px;">CN-6000 Breakout</h1>
+            </div>
+            <div style="display:flex; gap:10px;">
+				<span style="font-size:12px; color:#ccc; margin-right:20px;">v1.0</span>
+                <button id="btn-home" style="padding:5px 15px; cursor:pointer; background:#555; color:white; border:none; border-radius:3px;">🏠 Home</button>
+                <button id="btn-back" disabled style="padding:5px 15px; cursor:pointer;">◀ Back</button>
+            </div>
+        </header>
+
+        <div id="viewer-container">
+            <div id="image-wrapper">
+                <img id="main-image" src="" alt="Simulator View">
+                <div id="overlay-layer"></div>
+            </div>
+        </div>
+
+        <div id="dev-tools" style="display: none;">
+            <div>
+                <label style="cursor:pointer; user-select:none;">
+                    <input type="checkbox" id="dev-mode-toggle"> 🛠 Edit Mode
+                </label>
+                <span id="dev-status" style="margin-left:auto; color:#8f8; font-size:12px;"></span>
+            </div>
+            
+            <div id="dev-panel" style="display:none; padding: 15px; background: #333; border-top: 1px solid #444;">                        
+                <div style="display:flex; justify-content:space-between; margin-bottom:10px; color:#aaa; font-size:12px;">
+                    <span id="edit-status-text">Creating Mode</span>
+                    <a href="#" id="btn-clear-selection" style="color:#8af; text-decoration:none; display:none;">[Return to create new]</a>
+                </div>
+
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+                    <div id="container-target">
+                        <label style="display:block; font-size:12px; color:#aaa;">Jumo to ID / Select Image</label>
+                        <select id="dev-target" style="width:100%; padding:5px; background:#111; color:white; border:1px solid #555;">
+                            <option value="">(Select Image)</option>
+                        </select>
+                    </div>
+                    <div style="flex:1;">
+                        <label style="display:block; font-size:12px; color:#aaa;">Label / Description</label>
+                        <input type="text" id="dev-label" placeholder="Input description">
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 10px; color:white;">
+                    <label style="margin-right:15px; cursor:pointer;">
+                        <input type="radio" name="dev-type" value="hotspot" checked> 🔗 Jump to (Drag)
+                    </label>
+                    <label style="cursor:pointer;">
+                        <input type="radio" name="dev-type" value="annotation"> 💬 Annotation (Click)
+                    </label>
+                </div>
+
+                <div style="display:flex; gap:10px;">
+                    <button id="btn-save-json" style="flex:2; padding: 8px; background: #0078d4; color: white; border:none; cursor:pointer; border-radius:3px;">💾 Save / Update</button>
+                    <button id="btn-delete-json" style="flex:1; padding: 8px; background: #d40000; color: white; border:none; cursor:pointer; border-radius:3px; display:none;">🗑 Delete</button>
+                </div>
+            </div>                
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

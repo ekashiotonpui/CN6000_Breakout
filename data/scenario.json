@@ -1,0 +1,3101 @@
+{
+  "start_scene": "main_view",
+  "scenes": {
+    "main_view": {
+      "image": "00_Front_00.webp",
+      "title": "CN-6000 Breakout",
+      "hotspots": [
+        {
+          "rect": [
+            73.62,
+            14.13,
+            40.27,
+            24.7
+          ],
+          "target_scene": "01_Comp_01.webp",
+          "label": "PU-17 Pneumatic Unit",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            67.82,
+            54.18,
+            8.8,
+            18.65
+          ],
+          "target_scene": "03_WasteContainer_01.webp",
+          "label": "Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            29.83,
+            54.04,
+            15.44,
+            65.47
+          ],
+          "target_scene": "20_Right_01.webp",
+          "label": "Right View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            17.82,
+            20.42,
+            31.75,
+            6.08
+          ],
+          "target_scene": "40_Top_01.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            20.3,
+            9.45,
+            4.18,
+            77.21
+          ],
+          "target_scene": "30_Left_01.webp",
+          "label": "Left View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            49.03,
+            15.53,
+            37.46,
+            22.75
+          ],
+          "target_scene": "05_Sampler_01.webp",
+          "label": "Sampler",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            48.58,
+            22.81,
+            19,
+            8.08
+          ],
+          "target_scene": "05_Sampler_03.webp",
+          "label": "Back View of the STAT Port",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            24.78,
+            15.07,
+            37.3,
+            23.88
+          ],
+          "target_scene": "10_FrontUpper_01.webp",
+          "label": "Open the Front Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            35.44,
+            58.39,
+            11.26,
+            7.93
+          ],
+          "target_scene": "01_Comp_08.webp",
+          "label": "Barcode Reader",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            50.45,
+            24.92,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "STAT"
+        },
+        {
+          "rect": [
+            42.14,
+            50.96,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Start Button"
+        },
+        {
+          "rect": [
+            77.62,
+            18.04,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Main Power Switch"
+        }
+      ]
+    },
+    "RightSide_06.webp": {
+      "image": "RightSide_06.webp",
+      "title": "RightSide_06.webp",
+      "hotspots": [
+        {
+          "rect": [
+            30.59,
+            21.37,
+            51.89,
+            9.61
+          ],
+          "target_scene": "RightSide_05.webp",
+          "label": "I/O Top View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_01.webp": {
+      "image": "01_Comp_01.webp",
+      "title": "01_Comp_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            37.85,
+            30.8,
+            28.45,
+            57.87
+          ],
+          "target_scene": "01_Comp_02.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.57,
+            60.8,
+            10.96,
+            45.86
+          ],
+          "target_scene": "02_LowerDeck_10.webp",
+          "label": "Belllows & Trap Chamber",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            26.38,
+            31.97,
+            27.21,
+            10.5
+          ],
+          "target_scene": "02_LowerDeck_11.webp",
+          "label": "Bottom View of Measurement syringe for Sample Arms",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            19.2,
+            75.65,
+            10.65,
+            45.3
+          ],
+          "target_scene": "03_WasteContainer_01.webp",
+          "label": "Trash Box",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_02.webp": {
+      "image": "01_Comp_02.webp",
+      "title": "01_Comp_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            32.15,
+            20.06,
+            58.51,
+            27.03
+          ],
+          "target_scene": "01_Comp_04.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            65.85,
+            23.42,
+            52.97,
+            12.9
+          ],
+          "target_scene": "01_Comp_07.webp",
+          "label": "Right View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            22.14,
+            80.94,
+            17,
+            24.47
+          ],
+          "target_scene": "02_LowerDeck_01.webp",
+          "label": "Hydraulic Unit",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            32.15,
+            1.08,
+            12.85,
+            48.28
+          ],
+          "target_scene": "01_Comp_01.webp",
+          "label": "Front View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_04.webp": {
+      "image": "01_Comp_04.webp",
+      "title": "01_Comp_04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            17.4,
+            45.26,
+            6.22,
+            55.52
+          ],
+          "target_scene": "01_Comp_05.webp",
+          "label": "Left View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            5.11,
+            49.92,
+            24.8,
+            10.08
+          ],
+          "target_scene": "01_Comp_03.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            18.65,
+            74.1,
+            7.31,
+            52.35
+          ],
+          "target_scene": "01_Comp_07.webp",
+          "label": "Right View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            77.62,
+            45.88,
+            37.16,
+            13.67
+          ],
+          "target_scene": "01_Comp_01.webp",
+          "label": "Front View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_05.webp": {
+      "image": "01_Comp_05.webp",
+      "title": "01_Comp_05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            35.15,
+            9.98,
+            68.19,
+            28.36
+          ],
+          "target_scene": "01_Comp_06.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            15.35,
+            9.18,
+            72.54,
+            15.8
+          ],
+          "target_scene": "01_Comp_04.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            68.41,
+            9.98,
+            67.6,
+            10.01
+          ],
+          "target_scene": "01_Comp_09.webp",
+          "label": "Bottom View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            14.91,
+            0.29,
+            7.12,
+            60.85
+          ],
+          "target_scene": "01_Comp_03.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            16.46,
+            88.64,
+            9.49,
+            57.4
+          ],
+          "target_scene": "01_Comp_01.webp",
+          "label": "Front View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_07.webp": {
+      "image": "01_Comp_07.webp",
+      "title": "01_Comp_07.webp",
+      "hotspots": [
+        {
+          "rect": [
+            20.02,
+            11.95,
+            77.48,
+            9.34
+          ],
+          "target_scene": "01_Comp_04.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            18.69,
+            91.02,
+            7.12,
+            58.62
+          ],
+          "target_scene": "01_Comp_03.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            76.86,
+            5.03,
+            84.2,
+            6.9
+          ],
+          "target_scene": "01_Comp_09.webp",
+          "label": "Bottom View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            20.13,
+            0.49,
+            8.89,
+            54.95
+          ],
+          "target_scene": "01_Comp_01.webp",
+          "label": "Front View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "01_Comp_03.webp": {
+      "image": "01_Comp_03.webp",
+      "title": "01_Comp_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            2.11,
+            10.96,
+            66.22,
+            8.34
+          ],
+          "target_scene": "01_Comp_04.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            9.45,
+            0.49,
+            9.49,
+            60.62
+          ],
+          "target_scene": "01_Comp_07.webp",
+          "label": "Right View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            11.46,
+            81.13,
+            7.91,
+            54.28
+          ],
+          "target_scene": "01_Comp_05.webp",
+          "label": "Left View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            67.63,
+            13.34,
+            60.48,
+            6.12
+          ],
+          "target_scene": "01_Comp_09.webp",
+          "label": "Bottom View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "02_LowerDeck_01.webp": {
+      "image": "02_LowerDeck_01.webp",
+      "title": "02_LowerDeck_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            17.16,
+            66.17,
+            25.91,
+            76.66
+          ],
+          "target_scene": "02_LowerDeck_02.webp",
+          "label": "Air Dryer",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            3.25,
+            2.7,
+            19.65,
+            82.69
+          ],
+          "target_scene": "02_LowerDeck_04.webp",
+          "label": "CONTROLLER_ASSY NO.163 (ID: 4)",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            4.95,
+            25.65,
+            38.96,
+            80.68
+          ],
+          "target_scene": "02_LowerDeck_05.webp",
+          "label": "High Pressure Cleaning Unit",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "02_LowerDeck_05.webp": {
+      "image": "02_LowerDeck_05.webp",
+      "title": "02_LowerDeck_05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            19.13,
+            5.23,
+            40.52,
+            56.17
+          ],
+          "target_scene": "02_LowerDeck_06.webp",
+          "label": "High-pressure Cleaning Unit for Reagent Arm B (VOLUMETRIC MEASURE_ASSY NO.79)",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "02_LowerDeck_06.webp": {
+      "image": "02_LowerDeck_06.webp",
+      "title": "02_LowerDeck_06.webp",
+      "hotspots": [
+        {
+          "rect": [
+            50.28,
+            54.84,
+            41.9,
+            30.92
+          ],
+          "target_scene": "02_LowerDeck_09.webp",
+          "label": "SYRINGE_ASSY NO.70",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            21.8,
+            25,
+            73.73,
+            64.96
+          ],
+          "target_scene": "02_LowerDeck_07.webp",
+          "label": "Detach syringe assy",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            55.99,
+            18.38,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "VALVE_ASSY NO.339"
+        },
+        {
+          "rect": [
+            54.87,
+            82.22,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "SYRINGE_ASSY NO.70"
+        }
+      ]
+    },
+    "02_LowerDeck_09.webp": {
+      "image": "02_LowerDeck_09.webp",
+      "title": "02_LowerDeck_09.webp",
+      "hotspots": [
+        {
+          "rect": [
+            56.84,
+            11.15,
+            28.97,
+            24.81
+          ],
+          "target_scene": "02_LowerDeck_08.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "02_LowerDeck_11.webp": {
+      "image": "02_LowerDeck_11.webp",
+      "title": "02_LowerDeck_11.webp",
+      "hotspots": [
+        {
+          "rect": [
+            56.96,
+            24.02,
+            52.27,
+            42.14
+          ],
+          "target_scene": "02_LowerDeck_12.webp",
+          "label": "PCB NO.30025, ID6",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            45.16,
+            24.76,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm A Measurement Syringe"
+        },
+        {
+          "rect": [
+            44.61,
+            82.41,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B Measurement Syringe"
+        }
+      ]
+    },
+    "03_WasteContainer_01.webp": {
+      "image": "03_WasteContainer_01.webp",
+      "title": "03_WasteContainer_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            30.81,
+            43.18,
+            29.25,
+            21.36
+          ],
+          "target_scene": "03_WasteContainer_02.webp",
+          "label": "Inside of the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            55.06,
+            59.79,
+            28.86,
+            8.68
+          ],
+          "target_scene": "03_WasteContainer_03.webp",
+          "label": "Bottom of the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            5.9,
+            89.63,
+            9.88,
+            22.25
+          ],
+          "target_scene": "03_WasteContainer_05.webp",
+          "label": "Back View of the Trash Box",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "03_WasteContainer_03.webp": {
+      "image": "03_WasteContainer_03.webp",
+      "title": "03_WasteContainer_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            24.72,
+            27.85,
+            56.12,
+            34.39
+          ],
+          "target_scene": "03_WasteContainer_04.webp",
+          "label": "Remove the Leak Catcher Tray",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "20_Right_01.webp": {
+      "image": "20_Right_01.webp",
+      "title": "20_Right_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            56.95,
+            15.31,
+            10.67,
+            19.35
+          ],
+          "target_scene": "03_WasteContainer_01.webp",
+          "label": "Front View of the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            56.51,
+            77.38,
+            10.48,
+            19.8
+          ],
+          "target_scene": "03_WasteContainer_05.webp",
+          "label": "Back View of the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            74.53,
+            27.57,
+            48.43,
+            3.45
+          ],
+          "target_scene": "03_WasteContainer_03.webp",
+          "label": "Bottom of the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            54.62,
+            28.36,
+            47.64,
+            20.24
+          ],
+          "target_scene": "21_LowerRight_00.webp",
+          "label": "Remove the Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            14.57,
+            86.47,
+            10.28,
+            29.7
+          ],
+          "target_scene": "04_Comp_02.webp",
+          "label": "Back View of the IPU",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            13.51,
+            12.92,
+            72.09,
+            39.9
+          ],
+          "target_scene": "20_Right_02.webp",
+          "label": "Remove the IPU and Cover",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "21_LowerRight_00.webp": {
+      "image": "21_LowerRight_00.webp",
+      "title": "21_LowerRight_00.webp",
+      "hotspots": [
+        {
+          "rect": [
+            32.21,
+            25.79,
+            67.81,
+            56.6
+          ],
+          "target_scene": "21_LowerRight_01.webp",
+          "label": "Open the right lower cover",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "21_LowerRight_01.webp": {
+      "image": "21_LowerRight_01.webp",
+      "title": "21_LowerRight_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            61.74,
+            33.23,
+            19.68,
+            26.8
+          ],
+          "target_scene": "21_LowerRight_02.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            61.46,
+            8.08,
+            22.42,
+            26.93
+          ],
+          "target_scene": "21_LowerRight_04.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            9.25,
+            57.77,
+            33.1,
+            75
+          ],
+          "target_scene": "21_LowerRight_10.webp",
+          "label": "Back of fluid box",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            74.29,
+            17.15,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Waste fluid chambers (Front 2))"
+        },
+        {
+          "rect": [
+            72.57,
+            37.34,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Trap chambers (total 2)"
+        },
+        {
+          "rect": [
+            71.9,
+            24.33,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Water Supply Chambers (4 at rear)"
+        },
+        {
+          "rect": [
+            73.69,
+            59.05,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "CN-WASH chamber"
+        },
+        {
+          "rect": [
+            72.49,
+            66.8,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "CA II chamber"
+        },
+        {
+          "rect": [
+            44.28,
+            59.72,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Diaphragm pump for CA II (tatal 2)"
+        },
+        {
+          "rect": [
+            44.5,
+            68.76,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "CN-WASH diaphragm pump (total 4)"
+        },
+        {
+          "rect": [
+            46.45,
+            37.05,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Diaphragm pump for rinse fluid (total 4)"
+        }
+      ]
+    },
+    "21_LowerRight_10.webp": {
+      "image": "21_LowerRight_10.webp",
+      "title": "21_LowerRight_10.webp",
+      "hotspots": [
+        {
+          "rect": [
+            53.06,
+            30.01,
+            41.1,
+            28.48
+          ],
+          "target_scene": "21_LowerRight_11.webp",
+          "label": "30027 (ID: 5)",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            17.44,
+            31.66,
+            39.62,
+            34.36
+          ],
+          "target_scene": "21_LowerRight_12.webp",
+          "label": "PCB NO.30024",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            29.14,
+            61.38,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30024 (ID: 0)"
+        },
+        {
+          "rect": [
+            71.97,
+            49.83,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30027 (ID: 5)"
+        }
+      ]
+    },
+    "40_Top_01.webp": {
+      "image": "40_Top_01.webp",
+      "title": "40_Top_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            11.6,
+            4.38,
+            29.79,
+            71.55
+          ],
+          "target_scene": "40_Top_02.webp",
+          "label": "NO.30025 (ID1)",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            75.97,
+            36.6,
+            51.62,
+            21.82
+          ],
+          "target_scene": "41_ReagentArm_01.webp",
+          "label": "Front View of Reagent Arm A",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            28.59,
+            40.16,
+            48.52,
+            43.51
+          ],
+          "target_scene": "41_ReagentArm_02.webp",
+          "label": "Reagent Arms",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            2.76,
+            4.66,
+            81.78,
+            8.15
+          ],
+          "target_scene": "50_Back_01.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            73.35,
+            74.68,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Measurement syringe for Reagent Arm A"
+        },
+        {
+          "rect": [
+            52.85,
+            47.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Measurement syringe for Reagent Arm B"
+        }
+      ]
+    },
+    "41_ReagentArm_01.webp": {
+      "image": "41_ReagentArm_01.webp",
+      "title": "41_ReagentArm_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            47.39,
+            26.27,
+            30.37,
+            26.92
+          ],
+          "target_scene": "41_ReagentArm_03.webp",
+          "label": "Ribbon cable routing",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "04_Comp_02.webp": {
+      "image": "04_Comp_02.webp",
+      "title": "04_Comp_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            1.67,
+            83.11,
+            15.81,
+            78.09
+          ],
+          "target_scene": "50_Back_01.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            2.99,
+            0.95,
+            11.97,
+            62.43
+          ],
+          "target_scene": "20_Right_01.webp",
+          "label": "Right View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "50_Back_01.webp": {
+      "image": "50_Back_01.webp",
+      "title": "50_Back_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            3.23,
+            26.05,
+            65.02,
+            6.56
+          ],
+          "target_scene": "40_Top_03.webp",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            14.91,
+            3.57,
+            18.67,
+            34.82
+          ],
+          "target_scene": "04_Comp_02.webp",
+          "label": "Back view of the IPU",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            42.16,
+            26.57,
+            62.25,
+            23.14
+          ],
+          "target_scene": "50_Back_02.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            12.57,
+            25.53,
+            64.5,
+            26.25
+          ],
+          "target_scene": "50_Back_03.webp",
+          "label": "To the Detector",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            65.85,
+            27.78,
+            61.21,
+            31.03
+          ],
+          "target_scene": "50_Back_05.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            17.37,
+            91.22,
+            6.63,
+            79.04
+          ],
+          "target_scene": "30_Left_01.webp",
+          "label": "Left View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "50_Back_05.webp": {
+      "image": "50_Back_05.webp",
+      "title": "50_Back_05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            8.56,
+            4.99,
+            31.25,
+            59.67
+          ],
+          "target_scene": "52_ControllerAssy_01.webp",
+          "label": "CONTROLLER_ASSY NO.154",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            48.62,
+            49.22,
+            15.93,
+            40.61
+          ],
+          "target_scene": "53_PowerSocket_01.webp",
+          "label": "SSR(Solid State Relay)",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            56.49,
+            66.01,
+            10.88,
+            12.85
+          ],
+          "target_scene": "53_PowerSocket_02.webp",
+          "label": "Power Inlet",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            32.26,
+            42.05,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Relay panel"
+        }
+      ]
+    },
+    "50_Back_02.webp": {
+      "image": "50_Back_02.webp",
+      "title": "50_Back_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            56.35,
+            42.85,
+            34.51,
+            30.66
+          ],
+          "target_scene": "54_TED_01.webp",
+          "label": "TED exhaust",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            31.06,
+            24.99,
+            10.57,
+            37.58
+          ],
+          "target_scene": "51_Detector_20.webp",
+          "label": "Light Emitter",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "50_Back_03.webp": {
+      "image": "50_Back_03.webp",
+      "title": "50_Back_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            64.92,
+            15.88,
+            73.46,
+            33.7
+          ],
+          "target_scene": "51_Detector_06.webp",
+          "label": "Open the Back cover",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_06.webp": {
+      "image": "51_Detector_06.webp",
+      "title": "51_Detector_06.webp",
+      "hotspots": [
+        {
+          "rect": [
+            42.27,
+            6.08,
+            55.98,
+            9.45
+          ],
+          "target_scene": "51_Detector_07.webp",
+          "label": "Remove side cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            56.17,
+            9.5,
+            50.56,
+            9.01
+          ],
+          "target_scene": "51_Detector_08.webp",
+          "label": "Mixing Motors",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            34.59,
+            8.41,
+            52.23,
+            6.79
+          ],
+          "target_scene": "51_Detector_11.webp",
+          "label": "Top View of Detector",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            60.51,
+            26.85,
+            10.01,
+            18.58
+          ],
+          "target_scene": "51_Detector_20.webp",
+          "label": "To the Light Emitter",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_08.webp": {
+      "image": "51_Detector_08.webp",
+      "title": "51_Detector_08.webp",
+      "hotspots": [
+        {
+          "rect": [
+            36.22,
+            5.6,
+            15.53,
+            26.81
+          ],
+          "target_scene": "51_Detector_10.webp",
+          "label": "Detach the Mixing Motor",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_11.webp": {
+      "image": "51_Detector_11.webp",
+      "title": "51_Detector_11.webp",
+      "hotspots": [
+        {
+          "rect": [
+            45.72,
+            70.4,
+            9.51,
+            20.24
+          ],
+          "target_scene": "51_Detector_12.webp",
+          "label": "To the Case of a Wrong Orientation",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_07.webp": {
+      "image": "51_Detector_07.webp",
+      "title": "51_Detector_07.webp",
+      "hotspots": [
+        {
+          "rect": [
+            34.8,
+            41.4,
+            45.4,
+            37.51
+          ],
+          "target_scene": "51_Detector_09.webp",
+          "label": "Detach the Photodiode",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_20.webp": {
+      "image": "51_Detector_20.webp",
+      "title": "51_Detector_20.webp",
+      "hotspots": [
+        {
+          "rect": [
+            18.32,
+            21.1,
+            8.27,
+            63.23
+          ],
+          "target_scene": "51_Detector_21.webp",
+          "label": "LEDs",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "30_Left_01.webp": {
+      "image": "30_Left_01.webp",
+      "title": "30_Left_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            37.2,
+            8.19,
+            73.12,
+            23.95
+          ],
+          "target_scene": "30_Left_04.webp",
+          "label": "Remove the left covers",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            4.12,
+            7.59,
+            40.24,
+            31.96
+          ],
+          "target_scene": "30_Left_02.webp",
+          "label": "Push the cuvette jam maintenance cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            62.5,
+            9.88,
+            66.34,
+            27.17
+          ],
+          "target_scene": "30_Left_10.webp",
+          "label": "Remove the left lower cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            17.14,
+            2.71,
+            4.88,
+            71.26
+          ],
+          "target_scene": "50_Back_01.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "30_Left_02.webp": {
+      "image": "30_Left_02.webp",
+      "title": "30_Left_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            43.49,
+            27.37,
+            37.16,
+            17.24
+          ],
+          "target_scene": "30_Left_03.webp",
+          "label": "Open the cuvette jam maintenance cover",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "30_Left_04.webp": {
+      "image": "30_Left_04.webp",
+      "title": "30_Left_04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            56.96,
+            26.08,
+            28.86,
+            26.2
+          ],
+          "target_scene": "30_Left_06.webp",
+          "label": "Reagent Cooling Unit Motors",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "30_Left_10.webp": {
+      "image": "30_Left_10.webp",
+      "title": "30_Left_10.webp",
+      "hotspots": [
+        {
+          "rect": [
+            23.28,
+            46.21,
+            31.5,
+            59.73
+          ],
+          "target_scene": "33_ControllerAssyID4_01.webp",
+          "label": "Flip the Controller Assy ID4",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            38.7,
+            24.69,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "PCB NO.30026 (ID:3)"
+        },
+        {
+          "rect": [
+            49.33,
+            63.1,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "PCB NO.30026 (ID:4)"
+        }
+      ]
+    },
+    "05_Sampler_01.webp": {
+      "image": "05_Sampler_01.webp",
+      "title": "05_Sampler_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            37.35,
+            44.79,
+            36.18,
+            13.47
+          ],
+          "target_scene": "05_Sampler_02.webp",
+          "label": "Barcode Reader",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.39,
+            23.94,
+            20.77,
+            27.62
+          ],
+          "target_scene": "05_Sampler_04.webp",
+          "label": "STAT Port",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            13.17,
+            20.82,
+            40.78,
+            11.9
+          ],
+          "target_scene": "10_FrontUpper_02.webp",
+          "label": "Buffer Holder",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            8.46,
+            31.69,
+            20.22,
+            4.49
+          ],
+          "target_scene": "15_BufferTable_02.webp",
+          "label": "High Pressure Rinse Cup",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            50.11,
+            74.78,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack shift belts (2 linked)"
+        },
+        {
+          "rect": [
+            58.2,
+            76.04,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack stopper"
+        },
+        {
+          "rect": [
+            69.13,
+            73.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack guide"
+        },
+        {
+          "rect": [
+            59.02,
+            29.29,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "STAT"
+        }
+      ]
+    },
+    "10_FrontUpper_01.webp": {
+      "image": "10_FrontUpper_01.webp",
+      "title": "10_FrontUpper_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            61.38,
+            24.36,
+            32.32,
+            11.9
+          ],
+          "target_scene": "10_FrontUpper_02.webp",
+          "label": "Top view",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            50.9,
+            31.28,
+            25.01,
+            10.03
+          ],
+          "target_scene": "10_FrontUpper_03.webp",
+          "label": "Remove covers",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            39.37,
+            11.99,
+            20.75,
+            5.39
+          ],
+          "target_scene": "31_Feeder_04.webp",
+          "label": "Feeder Unit",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            72.49,
+            2.55,
+            86.99,
+            19.09
+          ],
+          "target_scene": "10_FrontUpper_06.webp",
+          "label": "Remove the Sampler",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "10_FrontUpper_02.webp": {
+      "image": "10_FrontUpper_02.webp",
+      "title": "10_FrontUpper_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            1.05,
+            71.49,
+            14.87,
+            55.02
+          ],
+          "target_scene": "10_FrontUpper_05.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            12.05,
+            22.84,
+            37.79,
+            42.44
+          ],
+          "target_scene": "11_ReagentCoolingUnit_01.webp",
+          "label": "Reagent Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            22.38,
+            30.89,
+            20.14,
+            32.26
+          ],
+          "target_scene": "11_ReagentCoolingUnit_03.webp",
+          "label": "Reagent Tub",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            58.53,
+            23.3,
+            40.86,
+            7.86
+          ],
+          "target_scene": "15_BufferTable_02.webp",
+          "label": "High Pressure Rinse Cup",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            86.15,
+            10.03,
+            64.11,
+            12.13
+          ],
+          "target_scene": "05_Sampler_01.webp",
+          "label": "Sampler",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            18.04,
+            19.51,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm A (CN-WASH, RINSE) high pressure"
+        },
+        {
+          "rect": [
+            20.73,
+            65.01,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B (CN-WASH)"
+        },
+        {
+          "rect": [
+            79.08,
+            41.5,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Buffer table (Includes sample barcode reader)"
+        }
+      ]
+    },
+    "11_ReagentCoolingUnit_03.webp": {
+      "image": "11_ReagentCoolingUnit_03.webp",
+      "title": "11_ReagentCoolingUnit_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            60.26,
+            25.24,
+            33.99,
+            21.33
+          ],
+          "target_scene": "11_ReagentCoolingUnit_06.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            43.49,
+            47.95,
+            8.38,
+            16.54
+          ],
+          "target_scene": "11_ReagentCoolingUnit_05.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            9.58,
+            18.29,
+            14.49,
+            24.7
+          ],
+          "target_scene": "11_ReagentCoolingUnit_10.webp",
+          "label": "Reagent table A stepper motor",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            19.46,
+            22.92,
+            42.38,
+            58.98
+          ],
+          "target_scene": "11_ReagentCoolingUnit_20.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            81.59,
+            14.75,
+            59.14,
+            17.81
+          ],
+          "target_scene": "11_ReagentCoolingUnit_30.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_01.webp": {
+      "image": "11_ReagentCoolingUnit_01.webp",
+      "title": "11_ReagentCoolingUnit_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            34.51,
+            9.02,
+            84.8,
+            63.1
+          ],
+          "target_scene": "11_ReagentCoolingUnit_02.webp",
+          "label": "Detach the Reagent Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            0.6,
+            83.96,
+            15.59,
+            50.52
+          ],
+          "target_scene": "13_Incubation_01.webp",
+          "label": "Incubator",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            34.28,
+            29.03,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Thermal protector for the fixed-side heater"
+        },
+        {
+          "rect": [
+            67.74,
+            24.19,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Thermistor for the fixed-side heater"
+        },
+        {
+          "rect": [
+            36,
+            37.96,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "(Reagent Arm B) Reagent cover open/close link B1 detection sensor"
+        },
+        {
+          "rect": [
+            28.89,
+            69.6,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent rack cover open/close stepper motor"
+        },
+        {
+          "rect": [
+            51.8,
+            81.94,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "(Reagent Arm A) Reagent cover open/close link A1 detection sensor"
+        },
+        {
+          "rect": [
+            72.01,
+            60.25,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "(Reagent Arm A) Reagent cover open/close link A2 detection sensor"
+        },
+        {
+          "rect": [
+            63.92,
+            52.29,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "(Reagent Arm B) Reagent cover open/close link B2 detection sensor"
+        },
+        {
+          "rect": [
+            92.48,
+            90.79,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Fixed-side heater"
+        }
+      ]
+    },
+    "11_ReagentCoolingUnit_02.webp": {
+      "image": "11_ReagentCoolingUnit_02.webp",
+      "title": "11_ReagentCoolingUnit_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            11.2,
+            10.03,
+            80.27,
+            79.53
+          ],
+          "target_scene": "11_ReagentCoolingUnit_34.webp",
+          "label": "Turn over",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            37.58,
+            18.7,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent table A origin detection sensor"
+        },
+        {
+          "rect": [
+            53.07,
+            47.92,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent table B origin detection sensor"
+        }
+      ]
+    },
+    "11_ReagentCoolingUnit_20.webp": {
+      "image": "11_ReagentCoolingUnit_20.webp",
+      "title": "11_ReagentCoolingUnit_20.webp",
+      "hotspots": [
+        {
+          "rect": [
+            27.92,
+            27.52,
+            44.48,
+            55.46
+          ],
+          "target_scene": "11_ReagentCoolingUnit_35.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_10.webp": {
+      "image": "11_ReagentCoolingUnit_10.webp",
+      "title": "11_ReagentCoolingUnit_10.webp",
+      "hotspots": [
+        {
+          "rect": [
+            0.52,
+            62.02,
+            22.83,
+            42.96
+          ],
+          "target_scene": "11_ReagentCoolingUnit_32.webp",
+          "label": "HIL Detector",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            1.27,
+            29.12,
+            68.66,
+            63.32
+          ],
+          "target_scene": "11_ReagentCoolingUnit_31.webp",
+          "label": "Back View of the Reagent Cooling Unit",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_31.webp": {
+      "image": "11_ReagentCoolingUnit_31.webp",
+      "title": "11_ReagentCoolingUnit_31.webp",
+      "hotspots": [
+        {
+          "rect": [
+            34.88,
+            49.68,
+            15.83,
+            45.21
+          ],
+          "target_scene": "11_ReagentCoolingUnit_32.webp",
+          "label": "HIL Detector",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            10.86,
+            11.25,
+            75.06,
+            15.82
+          ],
+          "target_scene": "11_ReagentCoolingUnit_01.webp",
+          "label": "Top View of the Reagent Cooling Unit",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_35.webp": {
+      "image": "11_ReagentCoolingUnit_35.webp",
+      "title": "11_ReagentCoolingUnit_35.webp",
+      "hotspots": [
+        {
+          "rect": [
+            40.5,
+            34.86,
+            29.91,
+            40.27
+          ],
+          "target_scene": "11_ReagentCoolingUnit_37.webp",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            37.88,
+            42.61,
+            10.55,
+            22.38
+          ],
+          "target_scene": "11_ReagentCoolingUnit_40.webp",
+          "label": "FAN",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_37.webp": {
+      "image": "11_ReagentCoolingUnit_37.webp",
+      "title": "11_ReagentCoolingUnit_37.webp",
+      "hotspots": [
+        {
+          "rect": [
+            12.95,
+            20.58,
+            64.05,
+            66.39
+          ],
+          "target_scene": "11_ReagentCoolingUnit_38.webp",
+          "label": "Bottom View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_38.webp": {
+      "image": "11_ReagentCoolingUnit_38.webp",
+      "title": "11_ReagentCoolingUnit_38.webp",
+      "hotspots": [
+        {
+          "rect": [
+            2.99,
+            52.32,
+            42.96,
+            24.25
+          ],
+          "target_scene": "11_ReagentCoolingUnit_39.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "10_FrontUpper_03.webp": {
+      "image": "10_FrontUpper_03.webp",
+      "title": "10_FrontUpper_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            64.07,
+            48.49,
+            30.71,
+            33.31
+          ],
+          "target_scene": "12_DisposalCatcher_02.webp",
+          "label": "Disposal Catcher",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            47.76,
+            39.4,
+            14.53,
+            39.75
+          ],
+          "target_scene": "13_Incubation_01.webp",
+          "label": "Incubator",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            71.11,
+            0.3,
+            8.21,
+            11.38
+          ],
+          "target_scene": "16_Feeder_02.webp",
+          "label": "Feeder Unit outlet",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            2.4,
+            21.91,
+            48.78,
+            45.14
+          ],
+          "target_scene": "41_ReagentArm_02.webp",
+          "label": "Detach the Reagent Arms",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            44.2,
+            70.69,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "REagent Arm A"
+        },
+        {
+          "rect": [
+            37.46,
+            35.86,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm B"
+        }
+      ]
+    },
+    "12_DisposalCatcher_02.webp": {
+      "image": "12_DisposalCatcher_02.webp",
+      "title": "12_DisposalCatcher_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            1.2,
+            37.08,
+            36.4,
+            60.48
+          ],
+          "target_scene": "12_DisposalCatcher_03.webp",
+          "label": "Detach the Disposal Catcher",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            67.29,
+            35.86,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Dispensing Table B Cuvette Holder"
+        },
+        {
+          "rect": [
+            82.82,
+            36.45,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "X axis origin sensor"
+        },
+        {
+          "rect": [
+            42.63,
+            60.46,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Cuvette insertion hole"
+        },
+        {
+          "rect": [
+            33.65,
+            63.74,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Disposal catcher"
+        },
+        {
+          "rect": [
+            74.96,
+            73.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B chamber (CN-WASH)"
+        },
+        {
+          "rect": [
+            41.73,
+            28.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Dispensing table A"
+        }
+      ]
+    },
+    "13_Incubation_01.webp": {
+      "image": "13_Incubation_01.webp",
+      "title": "13_Incubation_01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            51.12,
+            1.35,
+            23.54,
+            32.71
+          ],
+          "target_scene": "13_Incubation_02.webp",
+          "label": "To the supply catcher",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            21.03,
+            14.92,
+            34.18,
+            30.24
+          ],
+          "target_scene": "13_Incubation_03.webp",
+          "label": "Back view of the Incubator",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            19.61,
+            25.56,
+            63.84,
+            66.99
+          ],
+          "target_scene": "13_Incubation_04.webp",
+          "label": "Detach the Incubator",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            28.44,
+            10.4,
+            83,
+            66.84
+          ],
+          "target_scene": "13_Incubation_10.webp",
+          "label": "Remove Incubation Assy",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            65.2,
+            56.68,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer"
+        }
+      ]
+    },
+    "13_Incubation_04.webp": {
+      "image": "13_Incubation_04.webp",
+      "title": "13_Incubation_04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            63.03,
+            5.28,
+            90.38,
+            13.4
+          ],
+          "target_scene": "13_Incubation_05.webp",
+          "label": "Incubation lower layer",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            48.58,
+            5.41,
+            89.25,
+            13.47
+          ],
+          "target_scene": "13_Incubation_07.webp",
+          "label": "Detach Incubation",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            5.54,
+            25.45,
+            54.46,
+            43.34
+          ],
+          "target_scene": "13_Incubation_01.webp",
+          "label": "Incubation Catcher",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "13_Incubation_07.webp": {
+      "image": "13_Incubation_07.webp",
+      "title": "13_Incubation_07.webp",
+      "hotspots": [
+        {
+          "rect": [
+            27.47,
+            58.08,
+            16.93,
+            18.49
+          ],
+          "target_scene": "13_Incubation_08.webp",
+          "label": "Thermostat",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "13_Incubation_02.webp": {
+      "image": "13_Incubation_02.webp",
+      "title": "13_Incubation_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            16.02,
+            9.07,
+            37.49,
+            27.62
+          ],
+          "target_scene": "14_SupplyCatcher01.webp",
+          "label": "Supply Catcher",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            0.6,
+            62.48,
+            37.07,
+            80.76
+          ],
+          "target_scene": "13_Incubation_01.webp",
+          "label": "Incubator",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "14_SupplyCatcher01.webp": {
+      "image": "14_SupplyCatcher01.webp",
+      "title": "14_SupplyCatcher01.webp",
+      "hotspots": [
+        {
+          "rect": [
+            6.21,
+            27.01,
+            36.65,
+            65.49
+          ],
+          "target_scene": "14_SupplyCatcher02.webp",
+          "label": "Detach the Supply Catcher",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            0.75,
+            85.27,
+            14.49,
+            27.02
+          ],
+          "target_scene": "16_Feeder_02.webp",
+          "label": "Outlet of the Feeder Unit",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            6.92,
+            0.73,
+            13.61,
+            59.13
+          ],
+          "target_scene": "13_Incubation_03.webp",
+          "label": "Back View of the Incubator",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "14_SupplyCatcher02.webp": {
+      "image": "14_SupplyCatcher02.webp",
+      "title": "14_SupplyCatcher02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            49.7,
+            20.64,
+            35.21,
+            21.86
+          ],
+          "target_scene": "14_SupplyCatcher04.webp",
+          "label": "Rotary feeder drive stepper motor",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "14_SupplyCatcher04.webp": {
+      "image": "14_SupplyCatcher04.webp",
+      "title": "14_SupplyCatcher04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            21.86,
+            40.32,
+            25.21,
+            69.39
+          ],
+          "target_scene": "14_SupplyCatcher05.webp",
+          "label": "Z axiz drive",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "14_SupplyCatcher05.webp": {
+      "image": "14_SupplyCatcher05.webp",
+      "title": "14_SupplyCatcher05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            34.66,
+            64.47,
+            26.65,
+            27.4
+          ],
+          "target_scene": "14_SupplyCatcher04.webp",
+          "label": "Rotary feeder drive stepper motor",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "16_Feeder_02.webp": {
+      "image": "16_Feeder_02.webp",
+      "title": "16_Feeder_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            0.82,
+            46.05,
+            52.23,
+            62.2
+          ],
+          "target_scene": "31_Feeder_04.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "31_Feeder_04.webp": {
+      "image": "31_Feeder_04.webp",
+      "title": "31_Feeder_04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            34.73,
+            41.43,
+            20.26,
+            23.73
+          ],
+          "target_scene": "31_Feeder_06.webp",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "10_FrontUpper_06.webp": {
+      "image": "10_FrontUpper_06.webp",
+      "title": "10_FrontUpper_06.webp",
+      "hotspots": [
+        {
+          "rect": [
+            43.6,
+            15.26,
+            67.09,
+            27.62
+          ],
+          "target_scene": "10_FrontUpper_07.webp",
+          "label": "Remove the Barcode Reader and Buffer Table",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "10_FrontUpper_07.webp": {
+      "image": "10_FrontUpper_07.webp",
+      "title": "10_FrontUpper_07.webp",
+      "hotspots": [
+        {
+          "rect": [
+            73.39,
+            48.11,
+            12.13,
+            14.45
+          ],
+          "target_scene": "10_FrontUpper_10.webp",
+          "label": "Measurement syringe for Sample Arm B",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            67.85,
+            18.97,
+            13.81,
+            20.66
+          ],
+          "target_scene": "10_FrontUpper_11.webp",
+          "label": "Measurement syringe for Sample Arm A",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            69.42,
+            14.31,
+            3.99,
+            19.09
+          ],
+          "target_scene": "10_FrontUpper_12.webp",
+          "label": "Left View of Measurement syringe for Sample Arm A",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            55.88,
+            57.42,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent ID cap open/close mechanism"
+        },
+        {
+          "rect": [
+            50.79,
+            53.49,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Barcode Reader"
+        },
+        {
+          "rect": [
+            4.64,
+            21.05,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm A"
+        },
+        {
+          "rect": [
+            5.32,
+            63.49,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B"
+        },
+        {
+          "rect": [
+            36.68,
+            41.59,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "ample Arm A (RINSE) high pressure)"
+        },
+        {
+          "rect": [
+            36.23,
+            46.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B (RINSE)"
+        }
+      ]
+    },
+    "20_Right_02.webp": {
+      "image": "20_Right_02.webp",
+      "title": "20_Right_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            22.49,
+            26.76,
+            21.28,
+            11
+          ],
+          "target_scene": "41_ReagentArm_03.webp",
+          "label": "Reagent Arm A",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            44.05,
+            50.3,
+            19.69,
+            15.64
+          ],
+          "target_scene": "51_Detector_05.webp",
+          "label": "Detector",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            88.18,
+            1.22,
+            95.9,
+            10.93
+          ],
+          "target_scene": "20_Right_01.webp",
+          "label": "Trash Box",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            21.86,
+            91,
+            6.92,
+            64
+          ],
+          "target_scene": "50_Back_01.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "15_BufferTable_02.webp": {
+      "image": "15_BufferTable_02.webp",
+      "title": "15_BufferTable_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            66.17,
+            23.35,
+            58.34,
+            23.35
+          ],
+          "target_scene": "10_FrontUpper_02.webp",
+          "label": "Buffer Holder",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "11_ReagentCoolingUnit_34.webp": {
+      "image": "11_ReagentCoolingUnit_34.webp",
+      "title": "11_ReagentCoolingUnit_34.webp",
+      "hotspots": [
+        {
+          "rect": [
+            2.29,
+            5.09,
+            91.12,
+            97.03
+          ],
+          "target_scene": "11_ReagentCoolingUnit_02.webp",
+          "label": "Turn over",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "13_Incubation_03.webp": {
+      "image": "13_Incubation_03.webp",
+      "title": "13_Incubation_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            11.15,
+            46.57,
+            18.48,
+            59.88
+          ],
+          "target_scene": "13_Incubation_01.webp",
+          "label": "Front view of the Incubatior",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "13_Incubation_10.webp": {
+      "image": "13_Incubation_10.webp",
+      "title": "13_Incubation_10.webp",
+      "hotspots": [
+        {
+          "rect": [
+            37.09,
+            6.9,
+            21.05,
+            14.15
+          ],
+          "target_scene": "14_SupplyCatcher01.webp",
+          "label": "Supply Catcher",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_05.webp": {
+      "image": "51_Detector_05.webp",
+      "title": "51_Detector_05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            20.73,
+            24.58,
+            20.86,
+            11.68
+          ],
+          "target_scene": "14_SupplyCatcher01.webp",
+          "label": "Supply Catcher",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            1.27,
+            70.88,
+            28.14,
+            23.8
+          ],
+          "target_scene": "50_Back_03.webp",
+          "label": "Back View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_12.webp": {
+      "image": "51_Detector_12.webp",
+      "title": "51_Detector_12.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            38.53,
+            86.61,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Not correct"
+        },
+        {
+          "rect": [
+            61.71,
+            84.34,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Not correct"
+        }
+      ]
+    },
+    "30_Left_06.webp": {
+      "image": "30_Left_06.webp",
+      "title": "30_Left_06.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            28.67,
+            29.12,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent table A stepper motor"
+        },
+        {
+          "rect": [
+            29.12,
+            45.97,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent table B stepper motor"
+        },
+        {
+          "rect": [
+            29.34,
+            59.87,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stepper motor for the stirrer"
+        }
+      ]
+    },
+    "12_DisposalCatcher_03.webp": {
+      "image": "12_DisposalCatcher_03.webp",
+      "title": "12_DisposalCatcher_03.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            19.72,
+            96.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "X axis origin sensor"
+        },
+        {
+          "rect": [
+            33.2,
+            72.51,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Disposal catcher"
+        }
+      ]
+    },
+    "03_WasteContainer_02.webp": {
+      "image": "03_WasteContainer_02.webp",
+      "title": "03_WasteContainer_02.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            29.6,
+            65.99,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Trash box monitoring"
+        }
+      ]
+    },
+    "03_WasteContainer_05.webp": {
+      "image": "03_WasteContainer_05.webp",
+      "title": "03_WasteContainer_05.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            46,
+            32.74,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Trash box monitoring"
+        }
+      ]
+    },
+    "21_LowerRight_04.webp": {
+      "image": "21_LowerRight_04.webp",
+      "title": "21_LowerRight_04.webp",
+      "hotspots": [
+        {
+          "rect": [
+            20.25,
+            81.44,
+            17.44,
+            56.59
+          ],
+          "target_scene": "21_LowerRight_02.webp",
+          "label": "CN-WASH & CA II",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "21_LowerRight_02.webp": {
+      "image": "21_LowerRight_02.webp",
+      "title": "21_LowerRight_02.webp",
+      "hotspots": [
+        {
+          "rect": [
+            17.78,
+            0.05,
+            14.03,
+            71.78
+          ],
+          "target_scene": "21_LowerRight_04.webp",
+          "label": "Water & Waste",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "53_PowerSocket_01.webp": {
+      "image": "53_PowerSocket_01.webp",
+      "title": "53_PowerSocket_01.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            27.63,
+            52.82,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Terminal board"
+        },
+        {
+          "rect": [
+            64.21,
+            37.32,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "SSR (Solid State Relay)"
+        }
+      ]
+    },
+    "02_LowerDeck_02.webp": {
+      "image": "02_LowerDeck_02.webp",
+      "title": "02_LowerDeck_02.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            53.07,
+            57.59,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Air Dryer"
+        }
+      ]
+    },
+    "02_LowerDeck_10.webp": {
+      "image": "02_LowerDeck_10.webp",
+      "title": "02_LowerDeck_10.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            35.63,
+            51.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Bellows Unit"
+        },
+        {
+          "rect": [
+            68.79,
+            52.03,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Trap chamber"
+        },
+        {
+          "rect": [
+            12.73,
+            45.51,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Regulator (0.10MPa)"
+        }
+      ]
+    }
+  }
+}
