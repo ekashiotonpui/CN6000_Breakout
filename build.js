@@ -5,7 +5,7 @@ const sharp = require('sharp');
 const CONFIG = {
     assetsDir: './assets',
     srcDir: './src',
-    outputFile: './CN6000_Breakout.html',
+    outputFile: './index.html',
     imageQuality: 75,
     resizeWidth: 1280 // 軽量化のため幅を1280pxにリサイズ
 };
