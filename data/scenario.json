@@ -182,7 +182,7 @@
             45.86
           ],
           "target_scene": "02_LowerDeck_10.webp",
-          "label": "Belllows & Trap Chamber",
+          "label": "Pressure Regulator Unit",
           "type": "hotspot"
         },
         {
@@ -208,7 +208,19 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            54.17,
+            51.86,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "0.230 MPa"
+        }
+      ]
     },
     "01_Comp_02.webp": {
       "image": "01_Comp_02.webp",
@@ -532,7 +544,30 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            59.35,
+            29.54,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "High Pressure Cleaning Unit for Reagent Arm B"
+        },
+        {
+          "rect": [
+            59.11,
+            76.69,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "High-pressure Cleaning Unit for Sample Arm A"
+        }
+      ]
     },
     "02_LowerDeck_06.webp": {
       "image": "02_LowerDeck_06.webp",
@@ -842,7 +877,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Waste fluid chambers (Front 2))"
+          "text": "Waste fluid chambers (Front 2)"
         },
         {
           "rect": [
@@ -920,6 +955,50 @@
           "target_scene": "",
           "type": "annotation",
           "text": "Diaphragm pump for rinse fluid (total 4)"
+        },
+        {
+          "rect": [
+            30.73,
+            41.85,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Valve Assy No.327"
+        },
+        {
+          "rect": [
+            14.37,
+            20.46,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Valve Assy No.336"
+        },
+        {
+          "rect": [
+            21.56,
+            84.62,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Valve Assy No,325"
+        },
+        {
+          "rect": [
+            67.13,
+            81.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Valve Assy No.338"
         }
       ]
     },
@@ -960,7 +1039,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "30024 (ID: 0)"
+          "text": "30024 (ID: 0) / Arm Board"
         },
         {
           "rect": [
@@ -971,7 +1050,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "30027 (ID: 5)"
+          "text": "30027 (ID: 5) / Fluid board"
         }
       ]
     },
@@ -1264,6 +1343,17 @@
           "target_scene": "51_Detector_06.webp",
           "label": "Open the Back cover",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            51.74,
+            39.75,
+            15.82,
+            12.33
+          ],
+          "target_scene": "14_SupplyCatcher01.webp",
+          "label": "Supply Catcher",
+          "type": "hotspot"
         }
       ],
       "annotations": []
@@ -1353,7 +1443,140 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            63.54,
+            67.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing, Ch.14"
+        },
+        {
+          "rect": [
+            45.7,
+            70.95,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing, Ch.1"
+        },
+        {
+          "rect": [
+            63.15,
+            17.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            42.97,
+            22.9,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            63.02,
+            40.28,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            44.53,
+            43.9,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            63.28,
+            54.15,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            45.18,
+            57.57,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Stirrer mixing"
+        },
+        {
+          "rect": [
+            63.8,
+            74.27,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Not used"
+        },
+        {
+          "rect": [
+            46.74,
+            76.61,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reference Channel"
+        },
+        {
+          "rect": [
+            62.24,
+            10.3,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Ch.26"
+        },
+        {
+          "rect": [
+            42.58,
+            15.67,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Ch.13"
+        }
+      ]
     },
     "51_Detector_07.webp": {
       "image": "51_Detector_07.webp",
@@ -1389,7 +1612,19 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            48.16,
+            2.83,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LED (340, 405, 575, 660, 800nm)"
+        }
+      ]
     },
     "30_Left_01.webp": {
       "image": "30_Left_01.webp",
@@ -1504,7 +1739,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "PCB NO.30026 (ID:3)"
+          "text": "30026 (ID:3) / Incubation Board"
         },
         {
           "rect": [
@@ -1515,7 +1750,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "PCB NO.30026 (ID:4)"
+          "text": "30026 (ID:4) / Cooling Board"
         }
       ]
     },
@@ -1565,6 +1800,17 @@
           ],
           "target_scene": "15_BufferTable_02.webp",
           "label": "High Pressure Rinse Cup",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            72.29,
+            2.22,
+            90.35,
+            21.66
+          ],
+          "target_scene": "10_FrontUpper_06.webp",
+          "label": "",
           "type": "hotspot"
         }
       ],
@@ -1807,17 +2053,6 @@
             58.98
           ],
           "target_scene": "11_ReagentCoolingUnit_20.webp",
-          "label": "",
-          "type": "hotspot"
-        },
-        {
-          "rect": [
-            81.59,
-            14.75,
-            59.14,
-            17.81
-          ],
-          "target_scene": "11_ReagentCoolingUnit_30.webp",
           "label": "",
           "type": "hotspot"
         }
@@ -2183,7 +2418,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "REagent Arm A"
+          "text": "Reagent Arm A"
         },
         {
           "rect": [
@@ -2507,7 +2742,30 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            7.36,
+            9.1,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Cuvette Detection sensor"
+        },
+        {
+          "rect": [
+            59,
+            40.11,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rotary Feeder drive stepper motor"
+        }
+      ]
     },
     "14_SupplyCatcher05.webp": {
       "image": "14_SupplyCatcher05.webp",
@@ -2579,7 +2837,19 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            71.74,
+            40.77,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Solenoid for mirror rotation"
+        }
+      ]
     },
     "10_FrontUpper_07.webp": {
       "image": "10_FrontUpper_07.webp",
@@ -2673,7 +2943,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "ample Arm A (RINSE) high pressure)"
+          "text": "Sample Arm A (RINSE) high pressure)"
         },
         {
           "rect": [
@@ -2735,6 +3005,17 @@
           "target_scene": "50_Back_01.webp",
           "label": "Back View",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            72.66,
+            33.28,
+            30.74,
+            10.51
+          ],
+          "target_scene": "20_Right_03.webp",
+          "label": "30023 (ID:2) / Logger",
+          "type": "hotspot"
         }
       ],
       "annotations": []
@@ -2755,7 +3036,30 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            53.13,
+            67.19,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B (Rinse)"
+        },
+        {
+          "rect": [
+            59.9,
+            43.16,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm A (Rinse) High pressure"
+        }
+      ]
     },
     "11_ReagentCoolingUnit_34.webp": {
       "image": "11_ReagentCoolingUnit_34.webp",
@@ -2809,7 +3113,30 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            40.23,
+            35.69,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm B (Clean II)"
+        },
+        {
+          "rect": [
+            29.43,
+            37.74,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm B (CN-Wash, Rinse) High pressure"
+        }
+      ]
     },
     "51_Detector_05.webp": {
       "image": "51_Detector_05.webp",
@@ -2838,7 +3165,30 @@
           "type": "hotspot"
         }
       ],
-      "annotations": []
+      "annotations": [
+        {
+          "rect": [
+            42.06,
+            55.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm B (CN-Wash, Rinse) High pressure"
+        },
+        {
+          "rect": [
+            40.42,
+            41.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm B (Clean II)"
+        }
+      ]
     },
     "51_Detector_12.webp": {
       "image": "51_Detector_12.webp",
@@ -3071,7 +3421,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Bellows Unit"
+          "text": "Bellows Unit (-0.055MPa)"
         },
         {
           "rect": [
@@ -3093,7 +3443,195 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Regulator (0.10MPa)"
+          "text": "Regulator (0.105MPa)"
+        }
+      ]
+    },
+    "52_ControllerAssy_01.webp": {
+      "image": "52_ControllerAssy_01.webp",
+      "title": "52_ControllerAssy_01.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            40.89,
+            15.21,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "CPU(ARM) board : 60024"
+        },
+        {
+          "rect": [
+            26.64,
+            12.72,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Master board : 10043"
+        }
+      ]
+    },
+    "40_Top_02.webp": {
+      "image": "40_Top_02.webp",
+      "title": "40_Top_02.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            59.93,
+            39.93,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30025 (ID:1) / Reagent arm Board"
+        }
+      ]
+    },
+    "02_LowerDeck_12.webp": {
+      "image": "02_LowerDeck_12.webp",
+      "title": "02_LowerDeck_12.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            60.13,
+            65.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30025 (ID:6) / Sample Board"
+        }
+      ]
+    },
+    "11_ReagentCoolingUnit_32.webp": {
+      "image": "11_ReagentCoolingUnit_32.webp",
+      "title": "11_ReagentCoolingUnit_32.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            40.42,
+            89.16,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "HIL Detector (405nm)"
+        }
+      ]
+    },
+    "33_ControllerAssyID4_01.webp": {
+      "image": "33_ControllerAssyID4_01.webp",
+      "title": "33_ControllerAssyID4_01.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            59.93,
+            32.08,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30026 (ID:4)"
+        }
+      ]
+    },
+    "20_Right_03.webp": {
+      "image": "20_Right_03.webp",
+      "title": "20_Right_03.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            45.47,
+            58.74,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "30023 (ID:2) / Logger"
+        }
+      ]
+    },
+    "05_Sampler_04.webp": {
+      "image": "05_Sampler_04.webp",
+      "title": "05_Sampler_04.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            72.57,
+            71.09,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Cap holder lift detection sensor"
+        }
+      ]
+    },
+    "05_Sampler_02.webp": {
+      "image": "05_Sampler_02.webp",
+      "title": "05_Sampler_02.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            33.68,
+            42.48,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Cap Detection sensor"
+        },
+        {
+          "rect": [
+            59.38,
+            43.55,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack detection sensor"
+        },
+        {
+          "rect": [
+            63.54,
+            53.81,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Barcode reader"
+        },
+        {
+          "rect": [
+            39.58,
+            62.6,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample tube detection sensor"
         }
       ]
     }
