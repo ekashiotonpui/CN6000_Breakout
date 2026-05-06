@@ -547,25 +547,25 @@
       "annotations": [
         {
           "rect": [
-            59.35,
-            29.54,
+            29.79,
+            31.2,
             0,
             0
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "High Pressure Cleaning Unit for Reagent Arm B"
+          "text": "Syringe Assay for Reagent Arm B"
         },
         {
           "rect": [
-            59.11,
-            76.69,
+            30.14,
+            78.56,
             0,
             0
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "High-pressure Cleaning Unit for Sample Arm A"
+          "text": "Syringe Assay for Sample Arm A"
         }
       ]
     },
@@ -932,7 +932,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Diaphragm pump for CA II (tatal 2)"
+          "text": "Diaphragm pump for CA II, Silicone 1mL, 0.1MPa (total 2)"
         },
         {
           "rect": [
@@ -943,7 +943,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "CN-WASH diaphragm pump (total 4)"
+          "text": "CN-WASH diaphragm pump, FKM 1mL 0.1MPa (total 4)"
         },
         {
           "rect": [
@@ -954,7 +954,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Diaphragm pump for rinse fluid (total 4)"
+          "text": "Diaphragm pump for rinse fluid, 5mL, 0.22MPa (total 4)"
         },
         {
           "rect": [
@@ -1623,6 +1623,17 @@
           "target_scene": "",
           "type": "annotation",
           "text": "LED (340, 405, 575, 660, 800nm)"
+        },
+        {
+          "rect": [
+            59.01,
+            66.99,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Filled with Epoxy"
         }
       ]
     },
@@ -1858,6 +1869,17 @@
           "target_scene": "",
           "type": "annotation",
           "text": "STAT"
+        },
+        {
+          "rect": [
+            35.59,
+            30.37,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "CP rinse cup"
         }
       ]
     },
@@ -2835,6 +2857,17 @@
           "target_scene": "10_FrontUpper_07.webp",
           "label": "Remove the Barcode Reader and Buffer Table",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            76.04,
+            19.29,
+            19.34,
+            19.14
+          ],
+          "target_scene": "10_FrontUpper_11.webp",
+          "label": "Volumetric Measure Assy No.82",
+          "type": "hotspot"
         }
       ],
       "annotations": [
@@ -3186,7 +3219,7 @@
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Reagent Arm B (Clean II)"
+          "text": "Reagent Arm B Rinse cup (Clean II)"
         }
       ]
     },
@@ -3454,8 +3487,19 @@
       "annotations": [
         {
           "rect": [
-            40.89,
-            15.21,
+            26.64,
+            12.72,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Master board : 10043"
+        },
+        {
+          "rect": [
+            58.53,
+            49.48,
             0,
             0
           ],
@@ -3465,14 +3509,25 @@
         },
         {
           "rect": [
-            26.64,
-            12.72,
+            40.3,
+            14.59,
             0,
             0
           ],
           "target_scene": "",
           "type": "annotation",
-          "text": "Master board : 10043"
+          "text": "SDHC"
+        },
+        {
+          "rect": [
+            41.12,
+            80.84,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "DIP switch"
         }
       ]
     },
@@ -3632,6 +3687,104 @@
           "target_scene": "",
           "type": "annotation",
           "text": "Sample tube detection sensor"
+        }
+      ]
+    },
+    "10_FrontUpper_11.webp": {
+      "image": "10_FrontUpper_11.webp",
+      "title": "10_FrontUpper_11.webp",
+      "hotspots": [
+        {
+          "rect": [
+            28.27,
+            2.88,
+            27.41,
+            36.33
+          ],
+          "target_scene": "10_FrontUpper_12.webp",
+          "label": "To the left side view",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "10_FrontUpper_12.webp": {
+      "image": "10_FrontUpper_12.webp",
+      "title": "10_FrontUpper_12.webp",
+      "hotspots": [
+        {
+          "rect": [
+            26.17,
+            85.11,
+            12.7,
+            42.97
+          ],
+          "target_scene": "10_FrontUpper_11.webp",
+          "label": "To the front view",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "51_Detector_21.webp": {
+      "image": "51_Detector_21.webp",
+      "title": "51_Detector_21.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            13.32,
+            69.08,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "800nm"
+        },
+        {
+          "rect": [
+            28.5,
+            69.55,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "575nm"
+        },
+        {
+          "rect": [
+            42.29,
+            70.95,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "340nm"
+        },
+        {
+          "rect": [
+            54.56,
+            70.17,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "660nm"
+        },
+        {
+          "rect": [
+            66.94,
+            69.08,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "405nm"
         }
       ]
     }
