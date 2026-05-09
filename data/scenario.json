@@ -1354,6 +1354,17 @@
           "target_scene": "14_SupplyCatcher01.webp",
           "label": "Supply Catcher",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            51.39,
+            18.95,
+            18.75,
+            12.5
+          ],
+          "target_scene": "50_Back_06.webp",
+          "label": "Remove Incubator",
+          "type": "hotspot"
         }
       ],
       "annotations": []
@@ -1665,17 +1676,6 @@
         },
         {
           "rect": [
-            62.5,
-            9.88,
-            66.34,
-            27.17
-          ],
-          "target_scene": "30_Left_10.webp",
-          "label": "Remove the left lower cover",
-          "type": "hotspot"
-        },
-        {
-          "rect": [
             17.14,
             2.71,
             4.88,
@@ -1683,6 +1683,28 @@
           ],
           "target_scene": "50_Back_01.webp",
           "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            69.96,
+            13.72,
+            17.23,
+            10.2
+          ],
+          "target_scene": "2025_10_30, 14_11 Microsoft Lens.webp",
+          "label": "Waste Tank",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            62.17,
+            9.05,
+            68.04,
+            28.73
+          ],
+          "target_scene": "30_Left_10.webp",
+          "label": "Remove the left lower cover",
           "type": "hotspot"
         }
       ],
@@ -1822,6 +1844,17 @@
           ],
           "target_scene": "10_FrontUpper_06.webp",
           "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            26.56,
+            23.34,
+            13.96,
+            14.41
+          ],
+          "target_scene": "05_Sampler_06.webp",
+          "label": "To the bottom view",
           "type": "hotspot"
         }
       ],
@@ -1991,6 +2024,17 @@
           ],
           "target_scene": "05_Sampler_01.webp",
           "label": "Sampler",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            11.63,
+            9.77,
+            60.64,
+            73.09
+          ],
+          "target_scene": "10_FrontUpper_08.webp",
+          "label": "Detach Covers",
           "type": "hotspot"
         }
       ],
@@ -2837,7 +2881,18 @@
             23.73
           ],
           "target_scene": "31_Feeder_06.webp",
-          "label": "",
+          "label": "Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            6.26,
+            12.35,
+            73.14,
+            19.27
+          ],
+          "target_scene": "31_Feeder_05.webp",
+          "label": "To the back side",
           "type": "hotspot"
         }
       ],
@@ -3014,7 +3069,7 @@
             15.64
           ],
           "target_scene": "51_Detector_05.webp",
-          "label": "Detector",
+          "label": "Reagent Arm B Rinse cup",
           "type": "hotspot"
         },
         {
@@ -3049,6 +3104,17 @@
           "target_scene": "20_Right_03.webp",
           "label": "30023 (ID:2) / Logger",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            43.97,
+            26.71,
+            21.05,
+            15.79
+          ],
+          "target_scene": "20_Right_04.webp",
+          "label": "Reagent Arm A Rinse Cup",
+          "type": "hotspot"
         }
       ],
       "annotations": []
@@ -3056,41 +3122,29 @@
     "15_BufferTable_02.webp": {
       "image": "15_BufferTable_02.webp",
       "title": "15_BufferTable_02.webp",
-      "hotspots": [
-        {
-          "rect": [
-            66.17,
-            23.35,
-            58.34,
-            23.35
-          ],
-          "target_scene": "10_FrontUpper_02.webp",
-          "label": "Buffer Holder",
-          "type": "hotspot"
-        }
-      ],
+      "hotspots": [],
       "annotations": [
         {
           "rect": [
-            53.13,
-            67.19,
-            0,
-            0
-          ],
-          "target_scene": "",
-          "type": "annotation",
-          "text": "Sample Arm B (Rinse)"
-        },
-        {
-          "rect": [
-            59.9,
-            43.16,
+            47.66,
+            39.5,
             0,
             0
           ],
           "target_scene": "",
           "type": "annotation",
           "text": "Sample Arm A (Rinse) High pressure"
+        },
+        {
+          "rect": [
+            47.79,
+            57.47,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample Arm B (Rinse)"
         }
       ]
     },
@@ -3195,6 +3249,17 @@
           ],
           "target_scene": "50_Back_03.webp",
           "label": "Back View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            1.1,
+            45.25,
+            24.12,
+            23.68
+          ],
+          "target_scene": "20_Right_05.webp",
+          "label": "Detector Catcher",
           "type": "hotspot"
         }
       ],
@@ -3787,6 +3852,107 @@
           "text": "405nm"
         }
       ]
+    },
+    "10_FrontUpper_08.webp": {
+      "image": "10_FrontUpper_08.webp",
+      "title": "10_FrontUpper_08.webp",
+      "hotspots": [
+        {
+          "rect": [
+            3.39,
+            18.21,
+            43.16,
+            41.54
+          ],
+          "target_scene": "11_ReagentCoolingUnit_31.webp",
+          "label": "Detach Reagent Cooling Unit",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "30_Left_03.webp": {
+      "image": "30_Left_03.webp",
+      "title": "30_Left_03.webp",
+      "hotspots": [
+        {
+          "rect": [
+            10.53,
+            2.73,
+            72.71,
+            45.83
+          ],
+          "target_scene": "30_Left_07.webp",
+          "label": "Remove Cuvette Feeder",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "20_Right_04.webp": {
+      "image": "20_Right_04.webp",
+      "title": "20_Right_04.webp",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            59.76,
+            38.23,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm A Rinse cup (CA Clean II)"
+        },
+        {
+          "rect": [
+            66.67,
+            34.72,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Arm A (CN-Wash, Rinse)"
+        }
+      ]
+    },
+    "20_Right_05.webp": {
+      "image": "20_Right_05.webp",
+      "title": "20_Right_05.webp",
+      "hotspots": [
+        {
+          "rect": [
+            1.32,
+            25.8,
+            53.95,
+            43.09
+          ],
+          "target_scene": "20_Right_06.webp",
+          "label": "Detach Detector Catcher",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "50_Back_06.webp": {
+      "image": "50_Back_06.webp",
+      "title": "50_Back_06.webp",
+      "hotspots": [
+        {
+          "rect": [
+            5.78,
+            0.05,
+            9.47,
+            60.77
+          ],
+          "target_scene": "20_Right_02.webp",
+          "label": "To the right view",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
     }
   }
 }
